@@ -1,2 +1,4 @@
-# leetcode-solutions-cpp
-Efficient C++ solutions to LeetCode problems with categorized folders, clean code, and problem insights.
+### 🧩 Group Anagrams — [Leetcode #49](https://leetcode.com/problems/group-anagrams/)
+- **Topic:** Hashing, Strings
+- **Approach:** Use `unordered_map<string, vector<string>>` with sorted word as key
+- **Time Complexity:** O(n * k log k), where `n` = number of strings, `k` = avg string length
